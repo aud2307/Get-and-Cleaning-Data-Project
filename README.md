@@ -14,21 +14,21 @@ The main steps are commented in the scripts. Basically there are the following:
            Both X_test and X_train are merged to combine all the data for the 30 subjects
            Create a new data frame df3
         
-*Add column names to the new data frame
+* Add column names to the new data frame
           Columns names are specified in the file feature.txt
           Read the content of this file (feature.txt) into R
           Append the feature dataframe to the combines ones using the command names(dataframe)
         
-*Extract mean and standard deviation
+* Extract mean and standard deviation
           Only Mean() measurement and std() measurement were extracted from the combined data frame: the command grep is used to catch Mean() and std() pattern
           Create the new data frame df4
         
-*Add column Subject and Activity to the new data frame
+* Add column Subject and Activity to the new data frame
           Read Subject (test and train) and Y(test and train) into R and merge them to form a data frame with dim=[1,561]
           Add Subject and Activity column names to the merged data frame Subject and activity
            Append Subject and Activity dataframe to the combined data frame df4
 
-*Replace Activity (Y) by activity labels
+* Replace Activity (Y) by activity labels
         Read Activity labels data frame in R
         Match the activity code in Activity column in df4 with the activity labels using factor function
         
