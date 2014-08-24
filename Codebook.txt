@@ -1,0 +1,100 @@
+ This document describes the experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+
+
+	CODEBOOK FOR Human Activity Recognition                
+							FROM UCI Dataset              
+                                                                                
+                                                                                
+                                                                                
+     VARIABLE NAME         VARIABLE                   VALUES OR                 
+     AND POSITION                                     EXPLANATION               
+                                                                                
+     GROUP1      1      Identifier of the subject   INTEGER FROM 1 TO 30    
+                        who carried the experiment               
+														           
+                                                                                
+     GROUP2      2      Activity label              WALKING
+													WALKING_UPSTAIRS
+													WALKING_DOWNSTAIRS
+													SITTING
+													STANDING
+													LAYING
+                                                                                
+   tBodyAccmean 3-5     MEAN OF BODY LINEAR
+						ACCELERATION
+						ON 3 AXIS(X,Y,Z)                            
+    
+	tBodyAccstd 5-7     STANDARD DEVIATION OF 
+						BODY LINEAR ACCELERATION
+						ON 3 AXIS(X,Y,Z)         
+	
+tGravityAccmean 8-10	The mean of the gravity		Value measured in angle() variable
+						in a signal window sample
+						on 3 axis X,Y,Z
+	
+tGravityAccstd	10-12   The std of the gravity		Value measured in angle() variable
+						in a signal window sample
+						on 3 axis X,Y,Z
+
+tBodyAccJerkmean 13-15	The mean of the signals		Value measured in angle() variable
+						in a signal window sample
+						on 3 axis X,Y,Z				
+	
+tBodyAccJerkstd 16-18	The std of the signals		Value measured in angle() variable
+						in a signal window sample
+						on 3 axis X,Y,Z	
+						
+tBodyGyromean	19-21	The mean of the signals		Value measured in angle() variable
+						in a signal window sample
+						on 3 axis X,Y,Z	
+						
+tBodyGyrostd	22-24	The mean of the signals		Value measured in angle() variable
+						in a signal window sample
+						on 3 axis X,Y,Z	
+
+tBodyGyroJerkmean 25-27 Mean of body angular velocity	
+						on 3 axis X,Y,Z	
+
+tBodyGyroJerkstd 28-30 Mean of body angular velocity	
+						on 3 axis X,Y,Z	
+						
+tBodyAccMagmean	31-32	Mean of the magnitude of the linear acceleration	
+											
+
+tBodyAccMagstd	34-34	standard deviation of the magnitude of the linear acceleration	
+										
+tGravityAccMagmean	35-36	Mean of the magnitude of the linear acceleration	
+
+tGravityAccMagstd	37-38	standard deviation of the magnitude of the linear acceleration	
+
+tBodyAccJerkMagmean 39-40	Mean of the magnitude of the linear acceleration	
+
+tBodyGyroMagmean 41-42	Mean of the magnitude of the linear acceleration	
+
+tBodyGyroJerkMagmean 43-44	Mean of the magnitude of the linear acceleration	
+
+tBodyGyroJerkMagstd 45-46	standard deviation of the magnitude of the linear acceleration
+
+fBodyAccmean		47-49  Mean of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z
+							
+fBodyAccstd		50-52  	std of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z
+						
+fBodyAccJerkmean	53-55  Mean of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z		
+
+fBodyAccJerkstd	56-58  std of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z		
+							
+fBodyGyromean	59-61  Mean of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z	
+		
+fBodyGyrostd	62-64  std of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z			
+							
+fBodyGyrostd	62-64  std of Fast fourrier transform of the linear acceleration
+							on 3 axis X,Y,Z								
+							
+ 
